@@ -9,6 +9,14 @@
     background-color: rgb(228, 134, 10);
 }
 
-.logo{
-    
+.upperPic{
+    height: 450px;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+.everydayCat{
+    height: 400px;
+    background-color: rgb(55, 0, 255);
+    margin: 20px;
 }
