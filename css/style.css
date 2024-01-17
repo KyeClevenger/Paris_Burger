@@ -46,3 +46,25 @@
 .whitebox h3{
     font-weight: 600;
 }
+
+.textCat{
+    padding: 30px;
+}
+
+.whiteTxt{
+    color: white;
+}
+
+.cara{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.big{
+    padding: 50px;
+}
