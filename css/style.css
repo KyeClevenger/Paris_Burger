@@ -7,12 +7,17 @@
 .container{
     height: 100vh;
     width: 100vw;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.top{
     background-color: rgb(228, 134, 10);
 }
 
 .upperPic {
     height: 450px;
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -21,8 +26,8 @@
 
 .everydayCat{
     height: 400px;
-    background-color: rgb(55, 0, 255);
-    margin: 20px;
+    background-color: rgb(235, 80, 80);
+    margin-top: 10px;
 }
 
 .whitebox {
