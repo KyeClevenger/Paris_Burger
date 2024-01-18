@@ -8,7 +8,6 @@
     height: 100vh;
     width: 100vw;
     padding: 10px;
-    background-color: bisque;
 }
 
 .top{
@@ -25,8 +24,7 @@
 }
 
 .everydayCat{
-    height: 400px;
-    background-color: rgb(235, 80, 80);
+    height: 500px;
     margin-top: 10px;
 }
 
@@ -56,15 +54,37 @@
 }
 
 .cara{
-    height: 600px;
-    width: 100%;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
     object-fit: cover;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 50px;
+    margin: auto;
 }
 
 .big{
     padding: 50px;
+}
+
+.carouselBlock{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(137, 137, 137);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.down{
+    margin-top: 300px;
 }
