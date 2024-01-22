@@ -1,36 +1,35 @@
 * {
     margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
-    height: 100vh;
-    width: 100vw;
-    padding: 10px;
+    height: 100%;
+    width: 100%;
 }
 
 .top{
-    background-color: rgb(228, 134, 10);
+    background-color: rgb(237, 153, 43);
+    height: 100px;
+}
+
+.table{
+    width: 2000px;
+    object-fit: contain; 
 }
 
 .upperPic {
-    height: 450px;
-    margin-top: 10px;
+    height: 550px;
+    margin-top: 5px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     display: flex;
 }
 
-.everydayCat{
-    height: 500px;
-    margin-top: 10px;
-}
-
 .whitebox {
     height: 60px;
-    width: 450px;
+    width: 485px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -41,50 +40,19 @@
     background-color: white;
 }
 
-.whitebox h3{
-    font-weight: 600;
-}
-
-.textCat{
-    padding: 30px;
-}
-
 .whiteTxt{
     color: white;
 }
 
 .cara{
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 450px;
     overflow: hidden;
     object-fit: cover;
     margin: auto;
-    padding: 20px;
+    padding: 35px;
+    flex-wrap: wrap;
 }
-
-/* .big{
-    padding: 50px;
-} */
-
-/* .carouselBlock{
-    width: 200px;
-    height: 100px;
-    background-color: rgb(137, 137, 137);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.carousel-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
 
 .down{
     margin-top: 300px;
@@ -94,4 +62,17 @@
     display: flex;
     justify-content: center;
     margin: 20px;
+    flex-wrap: wrap;
+}
+
+.textCat{
+    width: 80%;
+    margin: 20px;
+}
+
+.piccen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
