@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -222,7 +222,6 @@ td{
 .graybox{
     align-items: center;
     margin: 20px;
-    width: 80%;
     padding: 5%;
     height: 35%;
     background-color: rgb(227, 236, 239);
@@ -236,18 +235,16 @@ td{
 
 .leftside{
     background-color: antiquewhite;
-    margin: 20px;
-    height: 1000px;
-    width: 750px;
-    display: flex;
-    justify-content:center;
 }
 
 .rightside{
     background-color: rgb(95, 242, 161);
-    margin: 20px;
-    height: 1000px;
-    width: 750px;
+}
+
+.bottomsection{
+    width: 80%;
+    height: 2000px;
     display: flex;
-    justify-content:center;
+    margin: 30px;
+    
 }
