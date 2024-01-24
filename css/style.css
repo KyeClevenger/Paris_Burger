@@ -170,3 +170,84 @@ table{
 td{
     padding: 10px;
 }
+
+.picture{
+    height: 1100px;
+    width: 1800px;
+}
+
+.bengal{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stars{
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.checked {
+    color: rgb(220, 43, 43);
+    }
+
+.red{
+    padding: 10px;
+    background-color: rgb(185, 23, 23);
+    color: white;
+    border-radius: 20px;
+    border: 1px solid rgb(185, 23, 23);
+}
+
+.printer{
+    width: 25px;
+    height: 25px;
+}
+
+.printerbutton{
+    border-radius: 35%;
+    margin: 10px;
+}
+
+.twobottons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.graybox{
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+    padding: 5%;
+    height: 35%;
+    background-color: rgb(227, 236, 239);
+}
+
+.txtbottom{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+}
+
+.leftside{
+    background-color: antiquewhite;
+    margin: 20px;
+    height: 1000px;
+    width: 750px;
+    display: flex;
+    justify-content:center;
+}
+
+.rightside{
+    background-color: rgb(95, 242, 161);
+    margin: 20px;
+    height: 1000px;
+    width: 750px;
+    display: flex;
+    justify-content:center;
+}
