@@ -47,12 +47,11 @@
 }
 
 .cara{
-    height: 350px;
-    width: 450px;
+    height: 300px;
+    width: 400px;
     overflow: hidden;
     object-fit: cover;
-    margin: auto;
-    margin: 30px;
+    margin: 10px;
     flex-wrap: wrap;
 }
 
@@ -69,6 +68,7 @@
     justify-content: center;
     margin-top: 20px; 
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .textCat{
@@ -106,8 +106,8 @@
 }
 
 .hel{
-    height: 250px;
-    width: 350px;
+    height: 200px;
+    width: 250px;
     overflow: hidden;
     object-fit: cover;
     margin: auto;
@@ -117,7 +117,7 @@
 .whiteimg{
     background-color: white;
     height: 60px;
-    width: 350px;
+    width: 250px;
     align-items: center;
     justify-content: center;
     display: flex;
