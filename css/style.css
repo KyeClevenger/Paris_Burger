@@ -145,13 +145,14 @@
 }
 
 table {
-    width: 60%;
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px; 
 }
 
 th, td {
-    padding: 5px;
+    border: 2px solid #ddd;
+    padding: 8px;
     text-align: left;
 }
 
@@ -310,5 +311,13 @@ th, td {
         margin: 5px;
         padding: 5px;
         font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    th, td {
+        border: 2px solid #ddd;
+        padding: 8px;
+        text-align: left;
     }
 }
