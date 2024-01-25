@@ -8,14 +8,6 @@
     width: 100%;
 }
 
-.top{
-    background-color: rgb(237, 153, 43);
-    height: 140px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-}
-
 .table{
     width: 2000px;
     object-fit: contain; 
@@ -32,7 +24,7 @@
 
 .whitebox {
     height: 60px;
-    width: 485px;
+    width: 400px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -142,33 +134,30 @@
 }
 
 .nav{
-    margin: 10px;
     padding: 10px;
     color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: none;
-    font-size: large;
 } 
-
-.nabvartxt{
-    min-width: 40%;
-}
 
 .paris{
     margin: 10%;
 }
 
-.time{
+.time {
     padding: 40px;
     background-color: rgb(197, 208, 211);
+    margin: 0 auto; 
+    box-sizing: border-box; 
 }
 
-table{
-    font-size: 25px;
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
 }
 
-td{
-    padding: 10px;
+th, td {
+    padding: 5px;
+    text-align: left;
 }
 
 .picture{
@@ -220,12 +209,10 @@ td{
 }
 
 .graybox{
-    align-items: center;
     margin: 20px;
     padding: 5%;
-    height: 220px;
+    height: 10%;
     background-color: rgb(227, 236, 239);
-    padding-bottom: 20px;
 }
 
 .leftside{
@@ -255,4 +242,67 @@ td{
     margin-bottom: 50px;
 }
 
+.topnav {
+    overflow: hidden;
+    color: black;
+    background-color: rgb(237, 153, 43);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
 
+.topnav a {
+float: left;
+display: block;
+justify-content: center;
+text-align: center;
+padding: 30px 50px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav .icon {
+    display: none;
+} 
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        display: block;
+        text-align: left;
+    }
+}
+.bold{
+    transform: scale(3);
+    color: black;
+}
+
+.stay{
+    display: flex;
+    position: relative;
+}
