@@ -1,0 +1,323 @@
+commit be9ac5838a9c731c7399e6763e3a2351dcef4c26
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Thu Jan 25 20:34:18 2024 -0700
+
+    doneyessss
+
+commit d529aff5bbf5ffb8a0073164826f9a9e44c804d4
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Thu Jan 25 20:28:29 2024 -0700
+
+    doneyesss
+
+commit 60d43d8d654abf85726f138afc0793a3284eb764
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Thu Jan 25 17:56:34 2024 -0700
+
+    Delete CNAME
+
+commit 3ce970568055b16209edc1e8a38d0a55b3ef8575
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Thu Jan 25 17:56:10 2024 -0700
+
+    Create CNAME
+
+commit edc92865c4bd854a74115dbaeac8b15e0f222555
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Thu Jan 25 17:55:19 2024 -0700
+
+    Delete CNAME
+
+commit 4beecaa3bbe29f55a3e92713f0b4280756f1e1cb
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Thu Jan 25 17:54:46 2024 -0700
+
+    Create CNAME
+
+commit 409998e4f82660fc6dcf108f5f2556edadae029f
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Thu Jan 25 17:54:16 2024 -0700
+
+    Delete CNAME
+
+commit 5cd1f013fa8b99e9fb7a420443861e4553666f45
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Thu Jan 25 17:53:51 2024 -0700
+
+    Create CNAME
+
+commit 55cf4d4486a2a9b2cb284f92a950e5f8b793e16b
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Thu Jan 25 17:53:08 2024 -0700
+
+    doneyes
+
+commit 6d75b76de12d321b99744e71d92fccf9dcd30dc2
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 23:26:14 2024 -0700
+
+    Delete CNAME
+
+commit fffc9ad857d54851bde40278efbdf8b1faad4ae5
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 23:25:25 2024 -0700
+
+    dones
+
+commit 409c8c86d1c50626a8519e67f19a7a92704a1191
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 23:16:38 2024 -0700
+
+    Create CNAME
+
+commit 8f1a8765ffbe9244381d3399eb29aadd0f6affb4
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 23:16:26 2024 -0700
+
+    Delete CNAME
+
+commit e0c1a5bf5c026465d8f9d83f891da1e9b92c9758
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 23:16:14 2024 -0700
+
+    Update CNAME
+
+commit 5f5ed18dc2c3e2da92ae2ff959fb77b124c0a17f
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 23:15:56 2024 -0700
+
+    Create CNAME
+
+commit 4588dbbd053f85863aa3f232f79f572472fc7201
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 23:15:35 2024 -0700
+
+    Delete CNAME
+
+commit fd9cc5e028ffaac61b0101b4b284d9634be9e494
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 23:15:07 2024 -0700
+
+    Update CNAME
+
+commit 01cd6136b1550ee73372f7c3aa44e329d37c65ab
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 23:13:05 2024 -0700
+
+    weds
+
+commit 62ae1f133743fd18d81988e829ad47b9d0e255b9
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 21:57:15 2024 -0700
+
+    Update CNAME
+
+commit 0c7fc9726f6cfdb71f89e71f455401ad93b67d05
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 21:53:03 2024 -0700
+
+    Update CNAME
+
+commit c0ae8cb980d348677c8ea421812f42c071814cef
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 21:52:45 2024 -0700
+
+    Update CNAME
+
+commit b12a00afe2dd675819e1be7af0127eba963ea99b
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 21:52:19 2024 -0700
+
+    Update CNAME
+
+commit 4f6c66aaaba06f44b6bafab1764bebf8e2694b13
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 21:51:56 2024 -0700
+
+    Create CNAME
+
+commit e9d6efa899c41589f5f70e4605b3161637778ed1
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 21:51:04 2024 -0700
+
+    wednight
+
+commit 711a46f7b70f414fa11a4c0473c18245b5343654
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 16:26:24 2024 -0700
+
+    updated
+
+commit 8a186a25caa53d983f33546dd2ce79cb8fb106cd
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 16:07:37 2024 -0700
+
+    Delete CNAME
+
+commit ad537ef8d6caa76978eed0e2cbabc6b320533584
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 24 16:05:33 2024 -0700
+
+    Create CNAME
+
+commit 3b8310dbbf70fc6e69ee50b833161fe2fdb7dbb3
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 16:04:36 2024 -0700
+
+    done
+
+commit b8da2d5ec1aa00acab4c7f822d1c7566c9ae03ef
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 15:39:32 2024 -0700
+
+    ingredients
+
+commit f627d38be9394ab0c90d6e037cfaf8f047013761
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 10:24:23 2024 -0700
+
+    font
+
+commit 8cc89b649c561ab5614fd74a038a3506c8c6b63a
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 10:04:16 2024 -0700
+
+    text
+
+commit 50313117f629edde4a0b82a1786a35e3b8762155
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 09:11:14 2024 -0700
+
+    recipe
+
+commit f0e1ff8b291e26e3c17d26ed0120ca2985815e6f
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 24 07:50:20 2024 -0700
+
+    eat
+
+commit 093acd3ed37891283d392e250b0f373913b38187
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Tue Jan 23 10:32:34 2024 -0700
+
+    tuesdaypushtwo
+
+commit ea91e99d02d190e31450039dbf4ccd4809360031
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Tue Jan 23 10:29:52 2024 -0700
+
+    tuesdaypush
+
+commit a4d885f674a58a297a4aaf3b0930079ee6bfd9a5
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Mon Jan 22 17:06:10 2024 -0700
+
+    picss
+
+commit bcc9f30855c7f980c1d076536fd730fbffdeeab1
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Mon Jan 22 15:39:12 2024 -0700
+
+    doneish
+
+commit ddbe391766f345c4874dc836174b0c5434849024
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Mon Jan 22 15:33:20 2024 -0700
+
+    pics
+
+commit b38c35c30c20e49735823d994be557f76ec5cd77
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Mon Jan 22 10:15:33 2024 -0700
+
+    yep
+
+commit 7552229a7a50f0aa98d22c6509b0e619536c6ab8
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Mon Jan 22 10:13:44 2024 -0700
+
+    nono
+
+commit 78abcac282c39f26652e182de9659386c3d31ebe
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Fri Jan 19 07:35:43 2024 -0700
+
+    nobootstraptwo
+
+commit 04052fa851cfda740b25887be47dc6f3a0316708
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Thu Jan 18 10:29:42 2024 -0700
+
+    nobootstrap
+
+commit 34ad46fcc18c24b793b2d89f6bfbdca7a4c29596
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 22:49:02 2024 -0700
+
+    donefornow
+
+commit 3ba55571712995a3aae686007364398a4bd30dfe
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 13:02:03 2024 -0700
+
+    carosel
+
+commit 60a18e091e9881e2c12795a221ecd6fedca32c3c
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 12:26:59 2024 -0700
+
+    pics
+
+commit 358c97bc61715657736fdd357275a1906c549fa3
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 12:19:36 2024 -0700
+
+    toppic
+
+commit d6a6d94ea20f13188c7291afd7f9c82fc1e7c7c2
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 11:40:42 2024 -0700
+
+    middle
+
+commit 943e60490afb839dcb0d94818a4888562fdd7c9e
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 11:09:06 2024 -0700
+
+    narbar
+
+commit d2347fbe9a270952ca2f67a17086318e1dae5c38
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 11:01:56 2024 -0700
+
+    bootstrap
+
+commit f56c45215890418cbcea4bcd022f42c8dd070d36
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 11:00:06 2024 -0700
+
+    cssfile
+
+commit 8518998c69faac5784cdd96b243c85ba2e52a706
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 10:56:32 2024 -0700
+
+    divs
+
+commit d3e4b366bc7fcaf4f64347cf03a2c12ac9a14e97
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 10:42:19 2024 -0700
+
+    merge
+
+commit 07e96301e5133913bb77ca5668e30522723d2851
+Author: Kye Clevenger <KyeClevenger@gmail.com>
+Date:   Wed Jan 17 10:35:13 2024 -0700
+
+    first
+
+commit a3039736ea277f32924787544b5162aad969904b
+Author: Kye Clevenger <126903684+KyeClevenger@users.noreply.github.com>
+Date:   Wed Jan 17 10:29:54 2024 -0700
+
+    Initial commit
