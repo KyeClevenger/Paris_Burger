@@ -14,14 +14,26 @@
 
 <body>
     <div class="container">
-            <div class="topnav" id="myTopnav">
-                <a href="index.html"><img src="./images/ryparis-logo.png" alt="Brefast meal idea"></a>
-                <a href="recipe.html">Popular Recipes</a>
-                <a href="index.html">What's New</a>
-                <a href="index.html">Categories</a>
-                <a href="index.html">Meal Ideas</a>
-                <a href="javascript:void(0);" style="font-size:50px;" class="icon" onclick="myFunction()">&#9776;</a>
+        <section class="nav">
+            <!-- We can also insert any logo here     -->
+            <div class="logo">
+                <img src="./images/ryparis-logo.png" alt="Brefast meal idea">
             </div>
+
+            <!--  checkbox to control the icon's state    -->
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <!--  main menu    -->
+            <ul class="menu">
+                <li><a href="recipe.html">Popular Recipes</a></li>
+                <li><a href="index.html">What's New</a></li>
+                <li><a href="index.html">Categories</a></li>
+                <li> <a href="index.html">Meal Ideas</a></li>
+            </ul>
+        </section>
+
         <div class="upperPic">
             <img class="table" src="./images/hero-image.jpg" alt="Food on Table">
             <span class="whitebox">
@@ -31,9 +43,11 @@
         <div class="picCat">
             <div class="textCat">
                 <h1 class="marge">Everyday Categories</h1>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque impedit sapiente in eum non,
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque impedit sapiente in eum
+                    non,
                     temporibus ex modi sequi adipisci nobis ut nemo officia corrupti officiis iusto cupiditate dicta
-                    omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nobis velit veritatis, error
+                    omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nobis velit veritatis,
+                    error
                     similique repudiandae doloribus quaerat repellendus dolores rerum laborum beatae impedit, omnis
                     debitis soluta aliquid, quis ratione consequatur.
                 </h3>
@@ -56,9 +70,11 @@
             <div class="healthy">
                 <div class="cen">
                     <h1 class="marge">Healthy Recipes of the Week</h1>
-                    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium dignissimos non rem itaque
+                    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium dignissimos non rem
+                        itaque
                         doloremque praesentium sit commodi, reiciendis, quos officia sequi! Odit deserunt error,
-                        quasi id quam quia tenetur exercitationem! Lorem, ipsum dolor sit amet consectetur adipisicing
+                        quasi id quam quia tenetur exercitationem! Lorem, ipsum dolor sit amet consectetur
+                        adipisicing
                         elit. Laudantium dignissimos non rem itaque
                         doloremque praesentium sit commodi, reiciendis, quos officia sequi! Odit deserunt error,
                         quasi id quam quia tenetur exercitationem!</h3>
@@ -82,16 +98,20 @@
             </div>
             <div class="textCat">
                 <h1 class="marge">Where To Eat</h1>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque impedit sapiente in eum non,
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque impedit sapiente in eum
+                    non,
                     temporibus ex modi sequi adipisci nobis ut nemo officia corrupti officiis iusto cupiditate dicta
-                    omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nobis velit veritatis, error
+                    omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nobis velit veritatis,
+                    error
                     similique repudiandae doloribus quaerat repellendus dolores rerum laborum beatae impedit, omnis
                     debitis soluta aliquid, quis ratione consequatur.
                 </h3>
                 <h3 class="marge">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque impedit sapiente in eum non,
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque impedit sapiente in eum
+                    non,
                     temporibus ex modi sequi adipisci nobis ut nemo officia corrupti officiis iusto cupiditate dicta
-                    omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nobis velit veritatis, error
+                    omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nobis velit veritatis,
+                    error
                     similique repudiandae doloribus quaerat repellendus dolores rerum laborum beatae impedit, omnis
                     debitis soluta aliquid, quis ratione consequatur.
                 </h3>
@@ -110,13 +130,13 @@
             </div>
         </div>
         <div class="bottom">
-            <h3 class="paris">©2020 RY Paris</h3>
-            <div class="nabvartxt">
-                <a class="nav" href="index.html">Site Map</a>
-                <a class="nav" href="index.html">Privacy Policy</a>
-                <a class="nav" href="index.html">About</a>
-                <a class="nav" href="index.html">Advertise</a>
-                <a class="nav" href="index.html">Help</a>
+            <h3>©2020 RY Paris</h3>
+            <div>
+                <a class="foot" href="#">Site Map</a>
+                <a class="foot" href="#">Privacy Policy</a>
+                <a class="foot" href="#">About</a>
+                <a class="foot" href="#">Advertise</a>
+                <a class="foot" href="#">Help</a>
             </div>
         </div>
     </div>

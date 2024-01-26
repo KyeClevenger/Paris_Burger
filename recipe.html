@@ -14,14 +14,25 @@
 
 <body>
     <div class="container">
-        <div class="topnav" id="myTopnav">
-            <a href="index.html"><img src="./images/ryparis-logo.png" alt="Brefast meal idea"></a>
-            <a href="recipe.html">Popular Recipes</a>
-            <a href="index.html">What's New</a>
-            <a href="index.html">Categories</a>
-            <a href="index.html">Meal Ideas</a>
-            <a href="javascript:void(0);" style="font-size:50px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
+        <section class="nav">
+            <!-- We can also insert any logo here     -->
+            <div class="logo">
+                <img src="./images/ryparis-logo.png" alt="Brefast meal idea">
+            </div>
+
+            <!--  checkbox to control the icon's state    -->
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <!--  main menu    -->
+            <ul class="menu">
+                <li><a href="recipe.html">Popular Recipes</a></li>
+                <li><a href="index.html">What's New</a></li>
+                <li><a href="index.html">Categories</a></li>
+                <li> <a href="index.html">Meal Ideas</a></li>
+            </ul>
+        </section>
         <div class="upperPic">
             <img class="picture" src="./images/burger.jpg" alt="Food on Table">
             <span class="whitebox">
@@ -117,13 +128,13 @@
         </div>
     </div>
     <div class="bottom">
-        <h3 class="paris">©2020 RY Paris</h3>
-        <div class="nabvartxt">
-            <a class="nav" href="">Site Map</a>
-            <a class="nav" href="">Privacy Policy</a>
-            <a class="nav" href="">About</a>
-            <a class="nav" href="">Advertise</a>
-            <a class="nav" href="">Help</a>
+        <h3>©2020 RY Paris</h3>
+        <div>
+            <a class="foot" href="#">Site Map</a>
+            <a class="foot" href="#">Privacy Policy</a>
+            <a class="foot" href="#">About</a>
+            <a class="foot" href="#">Advertise</a>
+            <a class="foot" href="#">Help</a>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

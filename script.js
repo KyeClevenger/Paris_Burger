@@ -1,8 +1,8 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-    }
+document.addEventListener('DOMContentLoaded', function () {
+    const navCheck = document.getElementById('nav-check');
+    const navLinks = document.querySelector('.nav-links');
+
+    navCheck.addEventListener('change', function () {
+        navLinks.style.display = this.checked ? 'flex' : 'none';
+    });
+});

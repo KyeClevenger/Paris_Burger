@@ -115,14 +115,25 @@
     display: flex;
 }
 
-.bottom{
+
+.bottom {
     background-color: rgb(237, 153, 43);
-    height: 140px;
-    margin-top: 40px;
-    min-width: 40%;
+    padding: 20px;
+    margin-top: 30px;
+    height: 10%;
+    text-align: center;
+    justify-content: space-around;
     display: flex;
-    justify-content:space-between;
-    align-items: center;
+}
+
+.foot {
+    text-decoration: none;
+    background-color: rgb(237, 153, 43);
+    margin: 10px;
+}
+
+.foot:hover {
+    color: #000;
 }
 
 .fixbot{
@@ -131,10 +142,6 @@
 
 .marge{
     margin-bottom: 5px;
-}
-
-.paris{
-    margin: 10%;
 }
 
 .time {
@@ -238,86 +245,131 @@ th, td {
     margin-bottom: 50px;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: rgb(237, 153, 43);
-    }
-
-.topnav a {
-    float: left;
-    display: block;
-    color: hsl(0, 0%, 0%);
-    text-align: center;
-    flex-wrap: wrap;
-    padding: 14px 16px;
+a{
+    color: #000000;
     text-decoration: none;
-    font-size: 20px;
-    }
-
-.topnav .icon {
-    display: none;
 }
 
-@media screen and (max-width: 650px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-    }
-    .topnav a.icon {
-    float: right;
-    display: block;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    }
-    .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    }
-    .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
-    .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-    }
+.logo{
+    height: 100%;
 }
 
 .nav {
-    margin: 10px;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: none;
-    font-size: large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(237, 153, 43);
+    height: 20%;
+    padding: 1em;
+    font-size:25px;
 }
 
-.nabvartxt {
-    min-width: 40%;
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-@media only screen and (max-width: 650px) {
-    .nabvartxt {
-        min-width: 40%;
+.menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+  /*Container for menu button  */
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    margin: 20px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+  /*  Creating the menu button */
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #000000;
+    position: absolute;
+    height: 12px;
+    width: 64px;
+    border-radius: 3px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -22px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 22px;
+}
+
+  /*  Adding Functionality to the Hamburger Menu with CSS  */
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(45deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+  /*  transforms the hamburger icon into a cross  */
+    transform: rotate(-45deg);
+    margin-bottom: 100%;
+}
+
+
+  /* Making the navbar responsive by CSS Media Queries */
+@media (max-width: 700px) {
+    .menu-button-container {
+    display: flex;
+    }
+    .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 150px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    }
+    #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    #menu-toggle:checked ~ .menu li {
+    background-color: rgb(237, 153, 43);
+    height: 2.5em;
+    padding: 0.5em;
     }
 
-    .nav {
-        margin: 5px;
-        padding: 5px;
-        font-size: medium;
+    #menu-toggle:checked ~ .menu li:last-child {
+        border-bottom: 5px;  
+        border-style: solid;
+        border-color: #ffffff;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    th, td {
-        border: 2px solid #ddd;
-        padding: 8px;
-        text-align: left;
+    .menu > li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(237, 153, 43);
     }
 }
