@@ -178,7 +178,6 @@ table {
 }
 
 th, td {
-    /* border: 2px solid #ddd; */
     padding: 8px;
     text-align: left;
 }
@@ -224,6 +223,7 @@ th, td {
     border-radius: 35%;
     margin: 10px;
     background-color: white;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .twobottons{
