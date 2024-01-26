@@ -6,3 +6,4 @@ document.addEventListener('DOMContentLoaded', function () {
         navLinks.style.display = this.checked ? 'flex' : 'none';
     });
 });
+

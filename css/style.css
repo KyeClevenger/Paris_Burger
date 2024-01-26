@@ -20,6 +20,7 @@
     align-items: center;
     overflow: hidden;
     display: flex;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 .whitebox {
@@ -32,6 +33,7 @@
     margin-top: 220px;
     border-radius: 10px;
     background-color: white;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 .whiteTxt{
@@ -45,6 +47,7 @@
     object-fit: cover;
     margin: 10px;
     flex-wrap: wrap;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 .bord{
@@ -77,6 +80,7 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 .piccen{
@@ -97,6 +101,10 @@
     margin: 20px;
 }
 
+.final{
+    margin-top: 5%;
+}
+
 .hel{
     height: 200px;
     width: 250px;
@@ -104,6 +112,7 @@
     object-fit: cover;
     margin: auto;
     flex-wrap: wrap;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 .whiteimg{
@@ -113,16 +122,19 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 
 .bottom {
     background-color: rgb(237, 153, 43);
-    padding: 20px;
-    margin-top: 30px;
+    font-size: 15px;
+    padding: 2rem;
+    margin-top: 50px;
     height: 10%;
     text-align: center;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     display: flex;
 }
 
@@ -141,7 +153,13 @@
 }
 
 .marge{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.fixedtxts{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
 }
 
 .time {
@@ -149,16 +167,18 @@
     background-color: rgb(197, 208, 211);
     margin: 0 auto; 
     box-sizing: border-box; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 th, td {
-    border: 2px solid #ddd;
+    /* border: 2px solid #ddd; */
     padding: 8px;
     text-align: left;
 }
@@ -203,12 +223,14 @@ th, td {
 .printerbutton{
     border-radius: 35%;
     margin: 10px;
+    background-color: white;
 }
 
 .twobottons{
     display: flex;
     justify-content:center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .graybox{
@@ -216,6 +238,7 @@ th, td {
     padding: 5%;
     height: 10%;
     background-color: rgb(227, 236, 239);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.28);
 }
 
 .leftside{
@@ -233,6 +256,11 @@ th, td {
 .bottomsection{
     width: 80%;
     height: 550%;
+}
+
+.no{
+    opacity:0.3; 
+    pointer-events:none;
 }
 
 .side{
@@ -263,6 +291,7 @@ a{
     height: 20%;
     padding: 1em;
     font-size:25px;
+    z-index: 3;
 }
 
 .menu {
@@ -365,6 +394,8 @@ a{
         border-bottom: 5px;  
         border-style: solid;
         border-color: #ffffff;
+        z-index: 3;
+        box-shadow: 2px 20px 10px -12px rgba(0,0,0,0.28);
     }
     .menu > li {
     display: flex;
@@ -373,3 +404,13 @@ a{
     background-color: rgb(237, 153, 43);
     }
 }
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
